@@ -1,5 +1,4 @@
-// @flow
-const isHotReloading = (): boolean => {
+var isHotReloading = function isHotReloading() {
   return !!(
     typeof module !== 'undefined' &&
     module.hot &&
